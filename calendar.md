@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Denver CitySec Calendar
+title: Calendar
 permalink: /cal/
 ---
 TBD
