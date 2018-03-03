@@ -167,6 +167,15 @@ img.header-icon {
 }
 @media (min-width:43.75em){
     img.header-icon{
+        width: 70px;
+        height: 70px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+}
+@media (min-width:56.25em){
+    img.header-icon{
         width: 80px;
         height: 80px;
         margin-top: 0px;
