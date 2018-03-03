@@ -6,6 +6,10 @@ html{
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%
 }
+.twitter-tweet{
+    margin-left:auto;
+    margin-right:auto
+}
 article,aside,footer,header,nav,section{
     display:block
 }
@@ -216,7 +220,7 @@ img.header-icon {
     }
 }
 p.meetup-details{
-    padding-left: 20px;
+    padding-left: 40px;
 }
 .h3,h3{
     font-size:1.375em;
