@@ -155,6 +155,25 @@ body .intro{
     margin:.5rem 0 1.5rem;
     font-family:Open Sans,Helvetica,Arial,sans-serif
 }
+img.header-icon {
+    float: left;
+    overflow: auto;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+@media (min-width:43.75em){
+    img.header-icon{
+        width: 80px;
+        height: 80px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+}
 .h1,h1{
     font-size:2em;
     line-height:1.25
@@ -491,6 +510,7 @@ a:hover{
     max-height:9999px
 }
 .nav-toggle{
+    display: none;
     -webkit-tap-highlight-color:transparent;
     -webkit-touch-callout:none;
     -webkit-user-select:none;
