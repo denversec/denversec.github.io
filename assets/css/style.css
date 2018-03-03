@@ -290,7 +290,7 @@ blockquote{
 .button-secondary:focus,.button-secondary:hover,.button-tertiary:focus,.button-tertiary:hover,.button:focus,.button:hover,.button__outline:focus,.button__outline:hover{
     color:#fff;
     text-decoration:none;
-    background-color:#21653f
+    background-color:#E14401
 }
 .button-secondary:active,.button-tertiary:active,.button:active,.button__outline:active{
     top:1px
@@ -299,13 +299,13 @@ blockquote{
     background-color:#233e5b
 }
 .button-secondary:hover{
-    background-color:#152536
+    background-color:#E14401
 }
 .button-tertiary{
     background-color:#aaa
 }
 .button-tertiary:hover{
-    background-color:#919191
+    background-color:#E14401
 }
 .button__outline{
     background-color:transparent;
@@ -484,7 +484,7 @@ a{
     color:#ff6700
 }
 a:hover{
-    color:#1b5233
+    color:#E14401
 }
 .nav-collapse{
     z-index:1
@@ -544,7 +544,7 @@ a:hover{
 }
 .nav-toggle:hover{
     color:#fff;
-    background-color:#21653f
+    background-color:#E14401
 }
 .noList{
     list-style:none;
@@ -750,7 +750,7 @@ dd{
     fill:#fff
 }
 .footer-links ul li:hover a svg .outer-shape{
-    fill:#21653f
+    fill:#E14401
 }
 .pagination .next{
     float:left
