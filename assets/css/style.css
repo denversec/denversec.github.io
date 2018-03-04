@@ -163,22 +163,15 @@ img.header-icon {
     float: left;
     overflow: auto;
     border-radius: 50%;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 10px;
     margin-right: 10px;
     width: 40px;
     height: 40px;
+    box-shadow: 2px 2px #000000;
+    margin-bottom: 2px;
 }
-@media (min-width:43.75em){
-    img.header-icon{
-        width: 70px;
-        height: 70px;
-        margin-top: 0px;
-        margin-left: 30px;
-        margin-right: 20px;
-    }
-}
-@media (min-width:56.25em){
+@media (min-width:50em){
     img.header-icon{
         width: 80px;
         height: 80px;
