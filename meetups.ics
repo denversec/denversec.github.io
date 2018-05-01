@@ -1,9 +1,10 @@
 BEGIN:VCALENDAR
 PRODID:-//Denver CitySec//EN
 VERSION:2.0
-NAME:Denver CitySec Meet-Ups
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+NAME:Denver CitySec Meet-Ups
+X-WR-CALNAME:Denver CitySec Meet-Ups
 X-WR-TIMEZONE:America/Denver
 X-WR-CALDESC:
 BEGIN:VTIMEZONE
@@ -34,6 +35,12 @@ CREATED:TZID=America/Denver:20180516T190000
 DESCRIPTION:Website: http://denversec.org\nTwitter: https://twitter.com/DenverSec
 LOCATION:Wynkoop Brewing\, 1634 18th Street\, Denver\, CO 80202
 SUMMARY:Denver CitySec Monthly Meet-Up
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Denver CitySec Meet-Up Reminder
+TRIGGER:-P0DT1H0M0S
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Denver:20180620T190000
@@ -45,6 +52,12 @@ CREATED:TZID=America/Denver:20180516T190000
 DESCRIPTION:Website: http://denversec.org\nTwitter: https://twitter.com/DenverSec
 LOCATION:Wynkoop Brewing\, 1634 18th Street\, Denver\, CO 80202
 SUMMARY:Denver CitySec Monthly Meet-Up
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Denver CitySec Meet-Up Reminder
+TRIGGER:-P0DT1H0M0S
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Denver:20180718T190000
@@ -56,5 +69,11 @@ CREATED:TZID=America/Denver:20180516T190000
 DESCRIPTION:Website: http://denversec.org\nTwitter: https://twitter.com/DenverSec
 LOCATION:Wynkoop Brewing\, 1634 18th Street\, Denver\, CO 80202
 SUMMARY:Denver CitySec Monthly Meet-Up
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Denver CitySec Meet-Up Reminder
+TRIGGER:-P0DT1H0M0S
+END:VALARM
 END:VEVENT
 END:VCALENDAR
