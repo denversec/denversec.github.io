@@ -1,7 +1,7 @@
 title: DenverSec
 description: "DenverSec is a #CitySec social gathering for anyone interested in information security with everyone welcome! Usually every third Wednesday in Downtown Denver at 7:00 PM."
 
-url: http://denversec.org
+url: https://denversec.org
 baseurl: ""
 
 markdown: kramdown
