@@ -6,6 +6,10 @@ html{
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%
 }
+.twitter-timeline {
+    text-decoration: none;
+    font-size: 75%
+}
 article,aside,footer,header,nav,section{
     display:block
 }
