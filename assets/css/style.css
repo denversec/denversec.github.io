@@ -6,10 +6,20 @@ html{
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%
 }
+
+/*! Twitter thinngs */
 .twitter-timeline{
     margin-left:auto;
-    margin-right:auto
+    margin-right:auto;
 }
+#twitter-widget-0 {
+    margin-left:auto;
+    margin-right:auto;
+}
+.timeline-Footer,.timeline-Header {
+    display: none;
+}
+
 article,aside,footer,header,nav,section{
     display:block
 }
