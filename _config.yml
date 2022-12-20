@@ -16,6 +16,8 @@ highlighter: rouge
 social:
 #   github: denversec
    twitter: DenverSec
+   mastodon: DenverSec
+   mastodon_instance: infosec.exchange
 #   email: info@denversec.org
 
 ical: /meetups.ics
