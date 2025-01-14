@@ -23,11 +23,13 @@ layout: default
 
   
 	
-  <p>Below you'll find our most recent tweet:</p>
+  <p>Below you'll find our most recent toots:</p>
+<!--
   <p id="tweet">
     <a class="twitter-timeline" href="https://twitter.com/{{ site.social.twitter }}" data-tweet-limit="1" data-width="400" target="_blank"><i>(blocked by browser)</i></a>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </p>
+  </p> 
+-->
 
 </div>
 <div class="dummy-wrapper-profile">
@@ -41,6 +43,9 @@ layout: default
     	<script>
       	const myTimeline = new MastodonTimeline.Init({
   	instanceUrl: "https://infosec.exchange",
+	timelineType: "hashtag",
+  	hashtagName: "fediverse",
+	maxNbPostShow: "5", 
   	timelineType: "profile",
   	userId: "109541792538746633",
   	profileName: "@DenverSec",
