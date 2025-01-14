@@ -3,6 +3,9 @@ layout: default
 ---
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Your site title</title>
     <!-- CSS -->
     <link href="assets/css/mastodon-timeline.min.css" rel="stylesheet" />
   </head>
@@ -15,13 +18,13 @@ layout: default
 
   <h2 id="meetup">Monthly Meet-Up</h2>
 	<p>The dates, locations, and times can sometimes vary but we <i>usually</i> meet on the third Wednesday of each month at a downtown location, starting at 7:00 PM. Be sure to follow us on <a href="https://twitter.com/{{ site.social.twitter }}" target="_blank">Twitter</a> and <a rel="me" href="https://{{ site.social.mastodon_instance }}/@{{ site.social.mastodon }}" target="_blank">Mastodon</a> to keep up with the upcoming meet-ups and related announcements.</p>
-  <p>
+  <body>
 	<script src="assets/css//mastodon-timeline.umd.js"></script>
     	<script>
-      	// You can initialize the script here
+      	const myTimeline = new MastodonTimeline.Init();
     	</script>
 
-  </p>
+  </body>
 	
   <p>Below you'll find our most recent tweet:</p>
   <p id="tweet">
