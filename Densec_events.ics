@@ -1,1 +1,41 @@
-
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DenverSec//Monthly Meetup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:DenverSec Monthly Meetup
+X-WR-TIMEZONE:America/Denver
+BEGIN:VEVENT
+UID:denversec-202603-meetup@denversec.org
+DTSTAMP:20260309T224722Z
+DTSTART;TZID=America/Denver:20260318T180000
+DTEND;TZID=America/Denver:20260318T200000
+SUMMARY:DenverSec Monthly Meetup
+DESCRIPTION:Denver Security Community monthly meetup. See denversec.org for details.
+LOCATION:Denver, CO
+URL:https://denversec.org
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:denversec-202604-meetup@denversec.org
+DTSTAMP:20260309T224722Z
+DTSTART;TZID=America/Denver:20260415T180000
+DTEND;TZID=America/Denver:20260415T200000
+SUMMARY:DenverSec Monthly Meetup
+DESCRIPTION:Denver Security Community monthly meetup. See denversec.org for details.
+LOCATION:Denver, CO
+URL:https://denversec.org
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:denversec-202605-meetup@denversec.org
+DTSTAMP:20260309T224722Z
+DTSTART;TZID=America/Denver:20260520T180000
+DTEND;TZID=America/Denver:20260520T200000
+SUMMARY:DenverSec Monthly Meetup
+DESCRIPTION:Denver Security Community monthly meetup. See denversec.org for details.
+LOCATION:Denver, CO
+URL:https://denversec.org
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
