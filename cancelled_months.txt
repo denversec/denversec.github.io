@@ -1,0 +1,5 @@
+# Cancel a meetup by adding its YYYY-MM here (one per line).
+# The ICS will be regenerated automatically on the next push or monthly run.
+# Example: to cancel April 2026, add a line: 2026-04
+
+# 2026-07
