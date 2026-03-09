@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add events.ics feed.xml
+          git add Densec_events.ics feed.xml
           # Only commit if there's actually a change
           git diff --cached --quiet || git commit -m "chore: auto-update events.ics [skip ci]"
           git push
