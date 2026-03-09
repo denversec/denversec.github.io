@@ -96,30 +96,32 @@ def rss_dt(dt: datetime) -> str:
 def build_rss(events: list[datetime]) -> str:
     now = datetime.now(tz=timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
 
-    items = ""
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<rss version="2.0">',
+        '  <channel>',
+        f'    <title>{EVENT_TITLE}</title>',
+        f'    <link>{EVENT_URL}</link>',
+        '    <description>Upcoming DenverSec meetups — every 3rd Wednesday of the month.</description>',
+        '    <language>en-us</language>',
+        f'    <lastBuildDate>{now}</lastBuildDate>',
+        '    <ttl>1440</ttl>',
+    ]
+
     for dt in events:
         human_date = dt.strftime("%A, %B %-d, %Y at %-I:%M %p MT")
-        items += f"""
-  <item>
-    <title>{EVENT_TITLE} — {dt.strftime("%B %Y")}</title>
-    <link>{EVENT_URL}</link>
-    <guid isPermaLink="false">denversec-{dt.strftime("%Y%m")}-meetup</guid>
-    <pubDate>{rss_dt(dt)}</pubDate>
-    <description>{EVENT_DESCRIPTION} Date: {human_date}. Location: {EVENT_LOCATION}.</description>
-  </item>"""
+        lines += [
+            '    <item>',
+            f'      <title>{EVENT_TITLE} - {dt.strftime("%B %Y")}</title>',
+            f'      <link>{EVENT_URL}</link>',
+            f'      <guid isPermaLink="false">denversec-{dt.strftime("%Y%m")}-meetup</guid>',
+            f'      <pubDate>{rss_dt(dt)}</pubDate>',
+            f'      <description>{EVENT_DESCRIPTION} Date: {human_date}. Location: {EVENT_LOCATION}.</description>',
+            '    </item>',
+        ]
 
-    return f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-  <channel>
-    <title>{EVENT_TITLE}</title>
-    <link>{EVENT_URL}</link>
-    <description>Upcoming DenverSec meetups — every 3rd Wednesday of the month.</description>
-    <language>en-us</language>
-    <lastBuildDate>{now}</lastBuildDate>
-    <ttl>1440</ttl>{items}
-  </channel>
-</rss>
-"""
+    lines += ['  </channel>', '</rss>']
+    return "\n".join(lines) + "\n"
 
 
 def main():
