@@ -5,15 +5,8 @@
     <link>https://denversec.org</link>
     <description>Upcoming DenverSec meetups — every 3rd Wednesday of the month.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2026 14:00:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 16:09:29 +0000</lastBuildDate>
     <ttl>1440</ttl>
-    <item>
-      <title>DenverSec Monthly Meetup - September 2026</title>
-      <link>https://denversec.org</link>
-      <guid isPermaLink="false">denversec-202609-meetup</guid>
-      <pubDate>Wed, 16 Sep 2026 18:00:00 -0600</pubDate>
-      <description>Denver Security Community monthly meetup. See denversec.org for details. Date: Wednesday, September 16, 2026 at 6:00 PM MT. Location: Denver, CO.</description>
-    </item>
     <item>
       <title>DenverSec Monthly Meetup - October 2026</title>
       <link>https://denversec.org</link>
@@ -27,6 +20,13 @@
       <guid isPermaLink="false">denversec-202611-meetup</guid>
       <pubDate>Wed, 18 Nov 2026 18:00:00 -0600</pubDate>
       <description>Denver Security Community monthly meetup. See denversec.org for details. Date: Wednesday, November 18, 2026 at 6:00 PM MT. Location: Denver, CO.</description>
+    </item>
+    <item>
+      <title>DenverSec Monthly Meetup - December 2026</title>
+      <link>https://denversec.org</link>
+      <guid isPermaLink="false">denversec-202612-meetup</guid>
+      <pubDate>Wed, 16 Dec 2026 18:00:00 -0600</pubDate>
+      <description>Denver Security Community monthly meetup. See denversec.org for details. Date: Wednesday, December 16, 2026 at 6:00 PM MT. Location: Denver, CO.</description>
     </item>
   </channel>
 </rss>
